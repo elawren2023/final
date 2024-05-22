@@ -1,0 +1,113 @@
+* {box-sizing:border-box;}
+body {margin:0;}
+h1 { text-align: center;
+  font-size: 2.4rem;
+  background-color: #403d39;
+  color: #778da9;
+  font-family: Georgia, "Times New Roman", serif;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  padding: 1.8rem;
+  margin: 0;
+}
+nav {
+background-color: #ccc5b9;
+border-bottom: 3px solid darkgrey;
+margin: 0;
+position: sticky;
+text-align: center;
+padding: 8px 0;  
+top: 0;
+}
+nav ul {
+margin: 0;  
+}
+nav li{
+display: inline-block;
+margin-left: 0;  
+margin-right: 25px;
+}
+nav a {
+text-decoration: none;
+font-size: 1.25rem;  
+}
+.right {
+float: right;
+padding: 10px;
+}
+main {
+margin: 0;
+}
+h2 {
+background-color: #ccc5b9;
+margin: 0;
+padding: 10px 0;
+text-align: center;
+}
+footer {
+background-color: #ccc5b9;
+margin: 0;
+padding: 10px 0;
+text-align: center;  
+}
+
+section {
+background-color: antiquewhite;
+text-align: center; /* text-align: center works for centering things. There are other ways, but for now this might work well. */
+}
+h4 {
+margin: 0; /* This will eliminate the space between other boxes. */
+padding: 10px 0; /* SHORTHAND: top-bottom left-right */
+ /* You can add a border anywhere */
+font-size: 2rem;
+color: lightblue;
+text-shadow: 2px 2px 2px darkblue; /* Text-shadow offsets blur and color */
+}
+section span {
+display: inline-block; /* inline-block allows the characteristic of inline with allowing one item to sit next to another, while allowing for a width or height to be defined */
+width: 70px;
+text-align: center; 
+background-color:lightblue;
+border-width: 4px;
+padding: 10px 0;
+}
+.default {
+border:0;  
+}
+.none {
+border-style:none;  
+}
+.inset {
+border-style:inset;
+}
+.outset {
+border-style:outset;  
+}
+.double {
+border-style:double;   
+}
+.groove {
+border-style:groove;   
+}
+.ridge {
+border-style:ridge; 
+}
+.solid {
+border-style:solid;   
+}
+.dashed {
+border-style:dashed;   
+}
+.dotted {
+border-style:dotted;   
+}
+#wrapper {
+padding: 0px 20px;
+background-color: gray;
+}
+main {
+background-color: white;
+padding: 20px 30px;  
+}
+.space {
+padding-top: 20px;  
+}
